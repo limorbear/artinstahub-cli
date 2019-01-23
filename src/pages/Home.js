@@ -55,7 +55,7 @@ class Home extends Component {
         <NavBar />
 
         <Container style={{ marginTop: '7em' }}>
-          <Card.Group>
+          <Card.Group centered>
           {artists.map((artist) => {
               return <ArtistCard name={artist.name}
                 working_image={artist.working_image}
