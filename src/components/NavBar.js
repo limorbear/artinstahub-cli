@@ -9,10 +9,16 @@ import {
 
 export default class NavBar extends Component {
 
-    state = { activeItem: window.location.pathname }
+    state = {
+        activeItem: ''
+    }
+
+    UNSAFE_componentWillMount(){
+        this.setState({ activeItem: window.location.pathname });
+    }
 
     render() {
-        const { activeItem } = this.state
+        const activeItem = this.state.activeItem;
     
         return (
             <div>
@@ -26,10 +32,10 @@ export default class NavBar extends Component {
                                 홍익미대 예술장부 (2019)
                     </Menu.Item>
         
-                    <Menu.Item as={ Link } to='/register'
-                        active={activeItem === '/register'}>등록</Menu.Item>
+                    <Menu.Item as={ Link } to='/members/write'
+                        active={activeItem === '/write'}>등록</Menu.Item>
         
-                    <Menu.Item as={ Link } to='/edit'
+                    <Menu.Item as={ Link } to='/members/edit'
                         active={activeItem === '/edit'}>수정</Menu.Item>
                     <Menu.Item as={ Link } to='/about'
                         active={activeItem === '/about'}>

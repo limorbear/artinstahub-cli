@@ -34,6 +34,15 @@ const About = () => {
                     ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
                     Curabitur ullamcorper ultricies nisi.
                 </p>
+                <p>
+                    <h3>Dev Log</h3>
+                    Front <br />
+                    0.0.0.9 Private Preview
+                    <br /> <br />
+                    Back <br />
+                    0.0.0.9 Private Preview
+
+                </p>
             </Container>
 
             <Footer />

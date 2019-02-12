@@ -7,13 +7,13 @@ const Register = () => {
     return (
         <div>
             <NavBar />
-
+        
             <Container style={{ marginTop: '7em' }}>
 
                 <Header as='h2' icon>
                     <Icon name='unlink' />
-                    등록
-                    <Header.Subheader>등록</Header.Subheader>
+                    회원 가입
+                    <Header.Subheader>회원 가입</Header.Subheader>
                 </Header>
 
             </Container>

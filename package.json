@@ -1,8 +1,9 @@
 {
-  "name": "art-insta-hub",
-  "version": "0.1.0",
+  "name": "artinstahub-cli",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",
@@ -27,5 +28,16 @@
   ],
   "devDependencies": {
     "cross-env": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limorbear/artinstahub-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limorbear/artinstahub-cli/issues"
+  },
+  "homepage": "https://github.com/limorbear/artinstahub-cli#readme",
+  "proxy": "http://localhost:4000"
 }
